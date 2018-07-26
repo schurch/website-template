@@ -1,0 +1,38 @@
+
+/Users/stefanchurch/Documents/Source/website/Setup.hs,15
+main main1,2
+
+/Users/stefanchurch/Documents/Source/website/app/Main.hs,70
+module Main Main2,3
+main main18,19
+application application21,22
+
+/Users/stefanchurch/Documents/Source/website/test/Spec.hs,15
+main main0,1
+
+/Users/stefanchurch/Documents/Source/website/src/Lib.hs,660
+module LibLib3,4
+type VaultSessionKey VaultSessionKey31,32
+type App App32,33
+type Action Action33,34
+data Env Env35,36
+data Env = Dev Dev35,36
+data Env = Dev | Test Test35,36
+data Env = Dev | Test | Prod Prod35,36
+data Config Config37,38
+  { environment environment38,39
+  , vaultSessionKey vaultSessionKey39,40
+newtype Stack Stack42,43
+  { unpackStack unpackStack43,44
+runScotty runScotty47,48
+connection connection59,60
+runDB runDB66,67
+lookupSessionValue lookupSessionValue69,70
+insertSessionValue insertSessionValue76,77
+sessionFunctions sessionFunctions83,84
+createConfig createConfig89,90
+runStack runStack95,96
+
+/Users/stefanchurch/Documents/Source/website/src/Page.hs,37
+module Page Page2,3
+page page6,7

@@ -1,0 +1,22 @@
+version: '3'
+services:
+  web:
+    image: "stefanchurch/website-website-exe"
+    depends_on:
+      - "db"
+    ports:
+     - "4000:4000"
+    restart: always
+  db:
+    image: "postgres"
+    environment:
+      POSTGRES_USER: website
+      POSTGRES_PASSWORD: password
+    restart: always
+    volumes:
+      - datavolume:/var/lib/postgresql/data
+    ports:
+      - "5432"
+
+volumes:
+  datavolume:
